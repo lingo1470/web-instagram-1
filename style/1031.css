@@ -1,0 +1,55 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    }
+body{
+    background:#fafafa;
+    display:flex;
+    justify-content: center;
+}
+
+.feed_list{
+    width:100%;
+    max-width: 600px;
+    display:flex;
+    flex-direction: column;
+}
+
+.feed_layout{
+    border:1px solid gray;
+    border-radius:4px;
+    margin:20px 0px;
+}
+.feed_header{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    border-bottom:1px gray
+}
+.user_layout{
+    display:flex;
+    
+    align-items:center;
+}
+.feed_user_profile_img{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    border-radius:100%;
+    background:url("https://miro.medium.com/max/1224/1*9aSeZirg0yCdpiyHqJZBwQ.jpeg") no-repeat;
+    background-size:cover;
+    border: 1px solid grey;
+}
+.user_layout p{
+    font-weight:900px;
+}
+.feed_body_header{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+.body_header_left_layout i{ 
+    margin-right: 5px;
+}
